@@ -2,9 +2,10 @@ def reverse_each_word(sentence)
   arr = sentence.split
   new_arr = []
   arr.each do |word|
-    new_arr.pushword.reverse
+    new_arr.push(word.reverse)
   end
-  new_arr.join(" ")
+  reversed_sent = new_arr.join(" ")
+  reversed_sent
 end
 
 def reverse_each_word(sentence)
